@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    line-height:1.5;
+    margin: 0;
+    padding:20px;
+}
+
+div{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+
+b{
+    color: black;
+    font-weight: bold;
+}
+
+i{
+    color: gray;
+}
+
+u{
+    text-decoration: underline;
+    text-decoration-color: #dc5d5d;
+}
+
+h1{
+    line-height: 1.15;
+}
+
+
+.img{
+    width: 100%;
+    border-bottom: 3px solid red;
+}
+
+.fecha {
+    color: black;
+    font-weight: normal;
+}
