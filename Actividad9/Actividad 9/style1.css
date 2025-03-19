@@ -1,0 +1,198 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.tabla1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: auto;
+}
+
+td:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+td{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    z-index: 1;
+}
+
+p{
+    font-size: 10px;
+    margin: 0;
+}
+
+.num{
+    margin: 0;
+    font-size: 10px;
+    text-align: right;
+}
+
+.espacio{
+    width: 5px;
+    height: 2px;
+}
+
+.verde1{
+    background-color: lightgreen;
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+}
+
+.naranja{
+    background-color: orange;
+    color: white;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.azul1{
+    background-color: #74B8F1;
+}
+
+.azul2{
+    background-color: #1A88FC;
+    color: white;
+}
+
+.gris{
+    background-color: lightgray;
+}
+
+.morado{
+    background-color: #AD74F1;
+}
+
+.aqua{
+    background-color: aquamarine;
+}
+
+
+
+
+.cuadro0{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alcalino{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.alcalinoterreos{
+    position: absolute;
+    left: 300px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.transicionales{
+    position: absolute;
+    left: 600px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.postransicionales{
+    position: absolute;
+    left: 900px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.metaloides{
+    position: absolute;
+    top: 60px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.nometales{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.gasesnobles{
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.lantanidos{
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.actonoides{
+    position: absolute;
+    top: 120px;
+    width: 250px;
+    height: 50px;
+}
+.desconocidas{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+
+.cuadro1{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+
+.cuadro2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid; */
+}

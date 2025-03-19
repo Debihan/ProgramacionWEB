@@ -1,0 +1,193 @@
+.container{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;/*Activar el grid*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:5px;
+    padding: 10px;
+    
+}
+.box{
+    color: white;
+    text-align: center;
+}
+.morado{
+    background-color: purple;
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+.azul{
+    background-color: skyblue;
+    grid-column: 5/6; /* Ocupará las columnas 5 y 6 */
+    grid-row: 1/6; /* Ocupará toda la altura (fila 1 a 6) */
+}
+.naranja{
+    background-color: orangered;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.verde{
+    background-color: green;
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+.rosa{
+    background-color: #ba82b9;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.amarillo{
+    background-color: orange;
+    grid-column: 3/5;
+    grid-row: 4/6;
+}
+
+.container2{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;/*Activar el grid*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap:5px;
+    padding: 10px;
+    
+}
+
+.rojo2{
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 1/9;
+}
+.morado2{
+    background-color: purple;
+    grid-column: 4/10;
+    grid-row: 1/4;
+}
+.verde2{
+    background-color: green;
+    grid-column: 10/11;
+    grid-row: 1/9;
+}
+.verde21{
+    background-color: green;
+    grid-column: 4/6;
+    grid-row: 4/7;
+}
+.azul2{
+    background-color: skyblue;
+    grid-column: 6/10;
+    grid-row: 4/5;
+}
+.rosa2{
+    background-color: #ba82b9;
+    grid-column: 6/10;
+    grid-row: 5/7;
+}
+.naranja2{
+    background-color: orange;
+    grid-column: 4/10;
+    grid-row: 7/9;
+}
+
+.container3{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;/*Activar el grid*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap:5px;
+    padding: 10px;
+    
+}
+
+
+.morado3{
+    background-color: purple;
+    grid-column: 1/9;
+    grid-row: 1/1;
+}
+.naranja3{
+    background-color: orange;
+    grid-column: 9/10;
+    grid-row: 1/9;
+}
+.naranja31{
+    background-color: orange;
+    grid-column: 1/3;
+    grid-row: 2/9;
+}
+.verde3{
+    background-color: green;
+    grid-column: 3/9;
+    grid-row: 2/3;
+}
+.azul3{
+    background-color: skyblue;
+    grid-column: 3/6;
+    grid-row: 3/5;
+}
+.azul31{
+    background-color: skyblue;
+    grid-column: 6/9;
+    grid-row: 3/5;
+}
+
+.rosa3{
+    background-color: #ba82b9;
+    grid-column: 3/4;
+    grid-row: 5/5;
+}
+.rosa31{
+    background-color: #ba82b9;
+    grid-column: 4/5;
+    grid-row: 5/5;
+}
+.rosa32{
+    background-color: #ba82b9;
+    grid-column: 7/8;
+    grid-row: 5/5;
+}
+.rosa33{
+    background-color: #ba82b9;
+    grid-column: 8/9;
+    grid-row: 5/5;
+}
+
+.rosa34{
+    background-color: #ba82b9;
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+.rosa35{
+    background-color: #ba82b9;
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+.rosa36{
+    background-color: #ba82b9;
+    grid-column: 7/8;
+    grid-row: 6/7;
+}
+.rosa37{
+    background-color: #ba82b9;
+    grid-column: 8/9;
+    grid-row: 6/7;
+}
+
+.rojo3{
+    background-color: red;
+    grid-column: 5/7;
+    grid-row: 5/5;
+}
+.rojo31{
+    background-color: red;
+    grid-column: 5/7;
+    grid-row: 6/7;
+}

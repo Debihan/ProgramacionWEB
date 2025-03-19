@@ -1,0 +1,185 @@
+main{
+    width: 90%;
+    background-color: white;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+header h1{
+    float: left;
+    width: 50%;
+}
+
+header div{
+    float: right;
+}
+
+.h31{
+    margin-top: 0;
+    font-size: 16px;
+}
+
+nav{
+    background-color: #f65959;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+nav div{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+nav p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.noticias1 {
+    background-color: white;
+    padding: 5%;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    
+}
+
+.ulnosp{
+    margin: 0;
+    padding: 0;
+}
+
+.otranoticia{
+    list-style: none;
+    color: #2954ad;
+    font-weight: 700;
+    font-size: 14px;
+    
+
+}
+
+.fecha1{
+    font-weight: 400;
+    color: #586379;
+    font-size: 12px;
+}
+
+.publicidad {
+    background-color: #ffcfa5;
+    padding: 5%;
+    margin-bottom: 10px;
+    border: 3px dotted #ff813e;
+    font-size: 15px;
+    /* position: relative; */
+}
+
+.titulo1{
+    color: #ff813e;
+    margin-top: 0;
+}
+
+.sleyendo{
+    color: #ff813e;
+    margin-bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+
+.contenido {
+    width: 66%;
+    background: white;
+    float: left;
+}
+
+.aside1{
+    float: left;
+    width: 15%;
+    padding-right: 2%;
+}
+
+.aside2{
+    float: right;
+    width: 15%;
+    padding-left: 2%;
+    
+}
+
+.contenido img{
+    margin-right: 15px;
+    width: 250px;
+    float: left;
+}
+
+.contenido article{
+    padding-bottom: 5px;
+    float: right;
+}
+
+.titulo2 {
+    font-size: 20px;
+    color: #ff813e;
+    font-weight: bold;
+}
+
+.columna {
+    background-color: white;
+    padding: 5%;
+    font-size: 14px;
+    /* position: relative; */
+}
+
+.columna h3{
+    width: 100%;
+    background-color: #08b4c2;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bordeaside2{
+    border: 3px solid #08b4c2;
+}
+
+footer{
+    float: right;
+    width: 100%;
+}
+
+footer p{
+    float: right;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2%;
+}
+
+.menu{
+    font-size: 13px;
+    width: 20%;
+    float: left;
+}
+
+.abajo{
+    list-style: none;
+    background-color: #bebebe;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    padding: 3%;
+}
