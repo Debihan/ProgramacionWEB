@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h2>Calculadora</h2>
+    <form action="calculadora.php" method="get">
+
+        <label for="num1">Valor 1</label>
+        <input type="text" id="num1" name="num1" required>
+        <br><br>
+
+        <label for="num2">Valor 2</label>
+        <input type="text" id="num2" name="num2" required>
+        <br><br>
+
+        <label for="opc">Operación a realizar:</label>
+        <br>
+        <input type="radio" id="suma" name="opc" value="sumar">Sumar
+        <br>
+        <input type="radio" id="resta" name="opc" value="restar">Restar
+        <br>
+        <input type="radio" id="multiplicar" name="opc" value="multiplicar">Multiplicar
+        <br>
+        <input type="radio" id="dividir" name="opc" value="dividir">Dividir
+        <br><br>
+
+        
+        <input type="submit" value="Calcular">
+
+
+
+
+    </form>
+    
+</body>
+</html>
