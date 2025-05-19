@@ -1,0 +1,415 @@
+:root {
+    --primary-color: #055254;
+    --secondary-color: #5FA09D;
+    --light-bg: #F4E9BE;
+    --error-color: #C0392B;
+    --soft-alert: #D96C6C;
+    --sueno-bg: #95cdf5; /* Azul claro */
+}
+
+/* Navbar Styles */
+.navbar-custom {
+    background-color: var(--primary-color);
+}
+
+.logo-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.8) !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Date Section */
+.date-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-secondary-custom {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-danger-custom {
+    background-color: var(--error-color);
+    border-color: var(--error-color);
+    color: white;
+}
+
+/* Habit Cards */
+.habit-card {
+    background-color: #b8cccb;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.habit-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: #a5cfce;
+}
+
+.frequency-badge {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Checkboxes */
+.custom-checkbox .form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.custom-checkbox .form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.custom-checkbox .form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(5, 82, 84, 0.25);
+}
+
+.habit-info {
+    padding-left: 0.5rem;
+}
+
+.habit-title {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.habit-detail {
+    color: #4a4a4a;
+    font-size: 0.9rem;
+}
+
+/* Status Badges */
+.status-badge {
+    font-size: 0.8rem;
+    padding: 0.35em 0.65em;
+    font-weight: 500;
+}
+
+.status-completed {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.status-pending {
+    background-color: var(--soft-alert);
+    color: white;
+}
+
+/* Progress Bar */
+.progress {
+    height: 14px;
+    border-radius: 7px;
+}
+
+.progress-bar {
+    background-color: #1eb3ab;
+}
+
+/* Login Page Styles */
+.login-page {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+
+.login-container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    padding: 3rem;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Login/Register Logo Styles */
+.login-container .logo-container {
+    width: 100%;
+    margin: 0 auto 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container .logo-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+.login-title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.login-container .form-control {
+    border: 2px solid #e0e0e0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.login-container .form-control::placeholder {
+    color: #adb5bd;
+}
+
+.login-container .form-control:focus {
+    border-color: var(--secondary-color);
+    background-color: white;
+    box-shadow: 0 0 0 0.2rem rgba(95, 160, 157, 0.15);
+}
+
+.login-container .btn-primary-custom {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.login-container .btn-primary-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(5, 82, 84, 0.3);
+}
+
+.login-container .btn-secondary-custom {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    font-weight: 600;
+}
+
+.login-container .btn-secondary-custom:hover {
+    transform: translateY(-2px);
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 5px 15px rgba(5, 82, 84, 0.2);
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.forgot-password a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.forgot-password a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.login-container .form-label {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.login-container .mb-3 {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Habits Management Page Styles */
+.stat-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card .card-title {
+    color: #6c757d;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-size: 0.8rem;
+}
+
+.motivational-card {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.motivational-icon {
+    font-size: 2rem;
+    color: rgba(255,255,255,0.9);
+}
+
+.motivational-card .card-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.motivational-card .card-text {
+    opacity: 0.9;
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+    font-weight: 500;
+}
+
+/* Progress Bar in Table */
+.table .progress {
+    height: 8px;
+    width: 100px;
+    margin: 0;
+}
+
+/* Filter Buttons */
+.btn-group .btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-group .btn-outline-primary:hover,
+.btn-group .btn-outline-primary.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Chart Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+} 
+
+.footer {
+    margin-top: 50px !important;
+}
+
+.footer h5 {
+    font-weight: 600;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,123 @@
+.bg-light-blue {
+    background-color:rgb(201, 224, 243);
+    border-radius: 10px;
+}
+
+.frase-container {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 10px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.frase-container.madrugada {
+    background: linear-gradient(135deg, #1a237e, #3949ab);
+    color: white;
+}
+
+.frase-container.mañana {
+    background: linear-gradient(135deg, #ffd740, #ffb300);
+    color: black;
+}
+
+.frase-container.mediodia {
+    background: linear-gradient(135deg, #43a047, #66bb6a);
+    color: white;
+}
+
+.frase-container.tarde {
+    background: linear-gradient(135deg, #424242, #616161);
+    color: white;
+}
+
+.frase-container.noche {
+    background: linear-gradient(135deg, #311b92, #512da8);
+    color: white;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: inherit;
+}
+
+.habit-card {
+    background:rgb(198, 247, 227);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+.habit-card:hover {
+    transform: translateY(-2px);
+}
+.custom-checkbox .form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+}
+.custom-checkbox .form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.status-badge {
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+.status-completed {
+    background-color: #28a745;
+    color: white;
+}
+.status-pending {
+    background-color: #ffc107;
+    color: black;
+}
+.categoria-badge {
+    background-color: var(--categoria-color);
+    color: white;
+    padding: 0.3em 0.8em;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+.habit-time {
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+}
+.delete-habit {
+    background-color: #dc3545;
+    color: white !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 0.2s;
+    margin-left: 15px;
+}
+.delete-habit:hover {
+    background-color: #c82333;
+    color: white !important;
+}
+.delete-habit i {
+    font-size: 0.9rem;
+}
+.delete-confirm {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: none;
+}
+.delete-confirm button {
+    padding: 4px 8px;
+    margin: 0 4px;
+    font-size: 0.8rem;
+}
+        
+   

@@ -1,0 +1,120 @@
+/* Estilos para Seguimiento de Sueño */
+.seguimiento-sueno {
+    background-color: #99cdfc;
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid #dfe6e9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+}
+
+.seguimiento-sueno .card-title {
+    color: #1a237e;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.seguimiento-sueno .input-group {
+    margin-bottom: 1rem;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    padding: 0.25rem;
+}
+
+.seguimiento-sueno .input-group-text {
+    background-color: #1a237e;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.seguimiento-sueno .form-control {
+    border: 1px solid #dfe6e9;
+    border-radius: 8px 0 0 8px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.seguimiento-sueno .form-control:focus {
+    border-color: #1a237e;
+    box-shadow: 0 0 0 0.2rem rgba(26,35,126,0.25);
+}
+
+.seguimiento-sueno .form-label {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1a237e;
+    font-size: 0.95rem;
+}
+
+.seguimiento-sueno .btn-group {
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.seguimiento-sueno .btn {
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    border: 2px solid #1a237e;
+    background-color: white;
+    color: #1a237e;
+}
+
+.seguimiento-sueno .btn:hover {
+    background-color: #1a237e;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.seguimiento-sueno textarea {
+    resize: vertical;
+    min-height: 120px;
+    border: 1px solid #dfe6e9;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 0.95rem;
+}
+
+.seguimiento-sueno .btn-check:checked + .btn {
+    background-color: #1a237e;
+    color: white;
+    border-color: #1a237e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.seguimiento-sueno .btn-check:checked + .btn-primary-custom {
+    background-color: #3da1ff;
+    color: white;
+}
+
+.seguimiento-sueno .btn-check:checked + .btn-secondary-custom {
+    background-color: #1a237e;
+    color: white;
+}
+
+.seguimiento-sueno .btn-check:checked + .btn-danger-custom {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.seguimiento-sueno .form-control {
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.seguimiento-sueno .form-control:focus {
+    border-color: #1a237e;
+    box-shadow: 0 0 0 0.2rem rgba(26,35,126,0.25);
+}

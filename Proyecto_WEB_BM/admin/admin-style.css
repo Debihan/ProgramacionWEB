@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #055254;
+    --secondary-color: #5FA09D;
+    --light-bg: #F4E9BE;
+    --error-color: #C0392B;
+    --soft-alert: #D96C6C;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: rgba(255,255,255,.75);
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    color: var(--light-bg);
+    background-color: rgba(255,255,255,.1);
+}
+
+.sidebar .nav-link.active {
+    color: var(--light-bg);
+    background-color: var(--secondary-color);
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card-dashboard {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-dashboard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-dashboard.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.card-dashboard.bg-success {
+    background-color: var(--secondary-color) !important;
+}
+
+.card-dashboard.bg-warning {
+    background-color: var(--light-bg) !important;
+    color: var(--primary-color) !important;
+}
+
+.card-dashboard.bg-info {
+    background-color: var(--secondary-color) !important;
+    opacity: 0.9;
+}
+
+/* Table Styles */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(95, 160, 157, 0.1);
+}
+
+/* Button Styles */
+.btn-outline-secondary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.dropdown-item {
+    color: rgba(255,255,255,.75);
+}
+
+.dropdown-item:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Header Styles */
+.border-bottom {
+    border-color: var(--secondary-color) !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .card-dashboard {
+        margin-bottom: 15px;
+    }
+} 
